@@ -32,7 +32,7 @@ Launch the service in the below order
     1. eureka-servce
     2. gateway-service
     3. student-service
-    4. transaction-service
+    4. fee-collection-service
 
 Note: please wait for few seconds so that all the services can be discovered by eureka server
 

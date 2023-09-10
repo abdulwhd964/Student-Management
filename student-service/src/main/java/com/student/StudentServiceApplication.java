@@ -10,9 +10,9 @@ import io.swagger.v3.oas.annotations.info.Info;
 @SpringBootApplication
 @EnableDiscoveryClient
 @OpenAPIDefinition(info = @Info(title = "Rak Bank Assessment", version = "1.0", description = "Student Information"))
-public class StudentServicesApplication {
+public class StudentServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentServicesApplication.class, args);
+		SpringApplication.run(StudentServiceApplication.class, args);
 	}
 }
