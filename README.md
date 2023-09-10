@@ -15,8 +15,8 @@ password:
 
 below are the prerequisite
     Java 17
-
-    Lombok should be eclipse
+    Apache Maven
+    Lombok plugin should be installed in eclipse
     (or)
     Enable Lombok Annotation while starting up the service in Intellji
 
