@@ -109,7 +109,7 @@ public class ReceiptController {
             Receipt receipt = mapper.map(receiptDTO, Receipt.class);
             receipt.setReceiptDate(new Date());
             ReceiptDTO dto = mapper.map(receiptService.save(receipt), ReceiptDTO.class);
-            return new ResponseEntity(CustomResponse.sendSuccess("Payment is successfull , below is the reference Id #", dto.getId()), HttpStatus.CREATED);
+            return new ResponseEntity(CustomResponse.sendSuccess("Payment is successfull , the reference Id is # "+dto.getId(), dto.getId()), HttpStatus.CREATED);
 
         } catch (Exception e) {
             e.printStackTrace();
