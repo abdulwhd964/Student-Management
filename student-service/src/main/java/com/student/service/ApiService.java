@@ -68,7 +68,7 @@ public class ApiService {
     }
 
     /**
-     * default response if the transaction microservice is down
+     * default response if the collect-fee-service microservice is down
      *
      * @param ex
      * @return

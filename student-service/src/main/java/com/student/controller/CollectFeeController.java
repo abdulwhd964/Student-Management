@@ -73,7 +73,7 @@ public class CollectFeeController {
             if (responseObject.getStatusCode().value() == HttpStatus.CONFLICT.value()) {
                 return new ResponseEntity<>(CustomResponse.sendError("Payment has been done for the student!!"), HttpStatus.CONFLICT);
             }
-            // rest call to transaction service to pay the fee for the student
+            // rest call to fee collection service to pay the fee for the student
             return apiService.callReceiptServiceToPayTheFeeForTheStudent(feeDTO, student);
 
         } catch (Exception e) {
