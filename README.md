@@ -1,3 +1,10 @@
+below are the prerequisite
+    Java 17
+    Apache Maven
+    Lombok plugin should be installed in eclipse
+    (or)
+    Enable Lombok Annotation while starting up the service in Intellji
+
 Once you have pull the source code from github
 
 please do maven update and mvn clean install
@@ -13,12 +20,6 @@ this is default user name and password
 username: sa
 password:
 
-below are the prerequisite
-    Java 17
-    Apache Maven
-    Lombok plugin should be installed in eclipse
-    (or)
-    Enable Lombok Annotation while starting up the service in Intellji
 
 Swagger:
 
